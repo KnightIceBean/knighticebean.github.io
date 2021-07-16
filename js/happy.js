@@ -75,191 +75,191 @@ function init() {
 	birds = [];
 	scale_width = width/1920*1.2;scale_height = width/1080*0.8;
 
-	birds.push(new Bird(240*scale_width,180*scale_height,25,1/30,random()));
-	birds.push(new Bird(230*scale_width,210*scale_height,25,1/30,random()));
-	birds.push(new Bird(220*scale_width,240*scale_height,25,1/30,random()));
-	birds.push(new Bird(210*scale_width,270*scale_height,25,1/30,random()));
-	birds.push(new Bird(200*scale_width,300*scale_height,25,1/30,random()));
+	birds.push(new Bird(240*scale_width,180*scale_height,25,1/20,random()));
+	birds.push(new Bird(230*scale_width,210*scale_height,25,1/20,random()));
+	birds.push(new Bird(220*scale_width,240*scale_height,25,1/20,random()));
+	birds.push(new Bird(210*scale_width,270*scale_height,25,1/20,random()));
+	birds.push(new Bird(200*scale_width,300*scale_height,25,1/20,random()));
 
-	birds.push(new Bird(260*scale_width,240*scale_height,25,1/30,random()));
-	birds.push(new Bird(300*scale_width,240*scale_height,25,1/30,random()));
-	birds.push(new Bird(340*scale_width,240*scale_height,25,1/30,random()));
-	birds.push(new Bird(380*scale_width,240*scale_height,25,1/30,random()));
-	birds.push(new Bird(420*scale_width,240*scale_height,25,1/30,random()));
+	birds.push(new Bird(260*scale_width,240*scale_height,25,1/20,random()));
+	birds.push(new Bird(300*scale_width,240*scale_height,25,1/20,random()));
+	birds.push(new Bird(340*scale_width,240*scale_height,25,1/20,random()));
+	birds.push(new Bird(380*scale_width,240*scale_height,25,1/20,random()));
+	birds.push(new Bird(420*scale_width,240*scale_height,25,1/20,random()));
 
-	birds.push(new Bird(340*scale_width,150*scale_height,25,1/30,random()));
-	birds.push(new Bird(340*scale_width,180*scale_height,25,1/30,random()));
-	birds.push(new Bird(340*scale_width,210*scale_height,25,1/30,random()));
-	birds.push(new Bird(340*scale_width,240*scale_height,25,1/30,random()));
-	birds.push(new Bird(340*scale_width,270*scale_height,25,1/30,random()));
-	birds.push(new Bird(340*scale_width,300*scale_height,25,1/30,random()));
-	birds.push(new Bird(340*scale_width,330*scale_height,25,1/30,random()));
-	birds.push(new Bird(340*scale_width,360*scale_height,25,1/30,random()));
-	birds.push(new Bird(340*scale_width,390*scale_height,25,1/30,random()));
-	birds.push(new Bird(340*scale_width,420*scale_height,25,1/30,random()));
-	birds.push(new Bird(340*scale_width,450*scale_height,25,1/30,random()));
-	birds.push(new Bird(340*scale_width,360*scale_height,25,1/30,random()));
-
-
-	birds.push(new Bird(260*scale_width,360*scale_height,25,1/30,random()));
-	birds.push(new Bird(300*scale_width,360*scale_height,25,1/30,random()));
-	birds.push(new Bird(340*scale_width,360*scale_height,25,1/30,random()));
-	birds.push(new Bird(380*scale_width,360*scale_height,25,1/30,random()));	
-	birds.push(new Bird(420*scale_width,360*scale_height,25,1/30,random()));
-
-	birds.push(new Bird(220*scale_width,480*scale_height,25,1/30,random()));
-	birds.push(new Bird(260*scale_width,480*scale_height,25,1/30,random()));
-	birds.push(new Bird(300*scale_width,480*scale_height,25,1/30,random()));
-	birds.push(new Bird(340*scale_width,480*scale_height,25,1/30,random()));
-	birds.push(new Bird(380*scale_width,480*scale_height,25,1/30,random()));
-	birds.push(new Bird(420*scale_width,480*scale_height,25,1/30,random()));
-	birds.push(new Bird(460*scale_width,480*scale_height,25,1/30,random()));
+	birds.push(new Bird(340*scale_width,150*scale_height,25,1/20,random()));
+	birds.push(new Bird(340*scale_width,180*scale_height,25,1/20,random()));
+	birds.push(new Bird(340*scale_width,210*scale_height,25,1/20,random()));
+	birds.push(new Bird(340*scale_width,240*scale_height,25,1/20,random()));
+	birds.push(new Bird(340*scale_width,270*scale_height,25,1/20,random()));
+	birds.push(new Bird(340*scale_width,300*scale_height,25,1/20,random()));
+	birds.push(new Bird(340*scale_width,330*scale_height,25,1/20,random()));
+	birds.push(new Bird(340*scale_width,360*scale_height,25,1/20,random()));
+	birds.push(new Bird(340*scale_width,390*scale_height,25,1/20,random()));
+	birds.push(new Bird(340*scale_width,420*scale_height,25,1/20,random()));
+	birds.push(new Bird(340*scale_width,450*scale_height,25,1/20,random()));
+	birds.push(new Bird(340*scale_width,360*scale_height,25,1/20,random()));
 
 
-	birds.push(new Bird(560*scale_width,180*scale_height,25,1/30,random()));
-	birds.push(new Bird(560*scale_width,210*scale_height,25,1/30,random()));
-	birds.push(new Bird(560*scale_width,240*scale_height,25,1/30,random()));
-	birds.push(new Bird(560*scale_width,270*scale_height,25,1/30,random()));
-	birds.push(new Bird(560*scale_width,300*scale_height,25,1/30,random()));
-	birds.push(new Bird(560*scale_width,330*scale_height,25,1/30,random()));
-	birds.push(new Bird(560*scale_width,360*scale_height,25,1/30,random()));
-	birds.push(new Bird(560*scale_width,390*scale_height,25,1/30,random()));
-	birds.push(new Bird(560*scale_width,420*scale_height,25,1/30,random()));
-	birds.push(new Bird(560*scale_width,450*scale_height,25,1/30,random()));
+	birds.push(new Bird(260*scale_width,360*scale_height,25,1/20,random()));
+	birds.push(new Bird(300*scale_width,360*scale_height,25,1/20,random()));
+	birds.push(new Bird(340*scale_width,360*scale_height,25,1/20,random()));
+	birds.push(new Bird(380*scale_width,360*scale_height,25,1/20,random()));	
+	birds.push(new Bird(420*scale_width,360*scale_height,25,1/20,random()));
 
-	birds.push(new Bird(760*scale_width,180*scale_height,25,1/30,random()));
-	birds.push(new Bird(760*scale_width,210*scale_height,25,1/30,random()));
-	birds.push(new Bird(760*scale_width,240*scale_height,25,1/30,random()));
-	birds.push(new Bird(760*scale_width,270*scale_height,25,1/30,random()));
-	birds.push(new Bird(760*scale_width,300*scale_height,25,1/30,random()));
-	birds.push(new Bird(760*scale_width,330*scale_height,25,1/30,random()));
-	birds.push(new Bird(760*scale_width,360*scale_height,25,1/30,random()));
-	birds.push(new Bird(760*scale_width,390*scale_height,25,1/30,random()));
-	birds.push(new Bird(760*scale_width,420*scale_height,25,1/30,random()));
-	birds.push(new Bird(760*scale_width,450*scale_height,25,1/30,random()));
-
-	birds.push(new Bird(560*scale_width,180*scale_height,25,1/30,random()));
-	birds.push(new Bird(600*scale_width,180*scale_height,25,1/30,random()));
-	birds.push(new Bird(640*scale_width,180*scale_height,25,1/30,random()));
-	birds.push(new Bird(680*scale_width,180*scale_height,25,1/30,random()));
-	birds.push(new Bird(720*scale_width,180*scale_height,25,1/30,random()));
-	birds.push(new Bird(760*scale_width,180*scale_height,25,1/30,random()));
-
-	birds.push(new Bird(560*scale_width,450*scale_height,25,1/30,random()));
-	birds.push(new Bird(600*scale_width,450*scale_height,25,1/30,random()));
-	birds.push(new Bird(640*scale_width,450*scale_height,25,1/30,random()));
-	birds.push(new Bird(680*scale_width,450*scale_height,25,1/30,random()));
-	birds.push(new Bird(720*scale_width,450*scale_height,25,1/30,random()));
-	birds.push(new Bird(760*scale_width,450*scale_height,25,1/30,random()));
-
-	birds.push(new Bird(600*scale_width,315*scale_height,25,1/30,random()));
-	birds.push(new Bird(640*scale_width,315*scale_height,25,1/30,random()));
-	birds.push(new Bird(680*scale_width,315*scale_height,25,1/30,random()));
-	birds.push(new Bird(720*scale_width,315*scale_height,25,1/30,random()));
+	birds.push(new Bird(220*scale_width,480*scale_height,25,1/20,random()));
+	birds.push(new Bird(260*scale_width,480*scale_height,25,1/20,random()));
+	birds.push(new Bird(300*scale_width,480*scale_height,25,1/20,random()));
+	birds.push(new Bird(340*scale_width,480*scale_height,25,1/20,random()));
+	birds.push(new Bird(380*scale_width,480*scale_height,25,1/20,random()));
+	birds.push(new Bird(420*scale_width,480*scale_height,25,1/20,random()));
+	birds.push(new Bird(460*scale_width,480*scale_height,25,1/20,random()));
 
 
-	birds.push(new Bird(920*scale_width,270*scale_height,25,1/30,random()));
-	birds.push(new Bird(910*scale_width,300*scale_height,25,1/30,random()));
-	birds.push(new Bird(900*scale_width,330*scale_height,25,1/30,random()));
-	birds.push(new Bird(980*scale_width,270*scale_height,25,1/30,random()));
-	birds.push(new Bird(990*scale_width,300*scale_height,25,1/30,random()));
-	birds.push(new Bird(1000*scale_width,330*scale_height,25,1/30,random()));
+	birds.push(new Bird(560*scale_width,180*scale_height,25,1/20,random()));
+	birds.push(new Bird(560*scale_width,210*scale_height,25,1/20,random()));
+	birds.push(new Bird(560*scale_width,240*scale_height,25,1/20,random()));
+	birds.push(new Bird(560*scale_width,270*scale_height,25,1/20,random()));
+	birds.push(new Bird(560*scale_width,300*scale_height,25,1/20,random()));
+	birds.push(new Bird(560*scale_width,330*scale_height,25,1/20,random()));
+	birds.push(new Bird(560*scale_width,360*scale_height,25,1/20,random()));
+	birds.push(new Bird(560*scale_width,390*scale_height,25,1/20,random()));
+	birds.push(new Bird(560*scale_width,420*scale_height,25,1/20,random()));
+	birds.push(new Bird(560*scale_width,450*scale_height,25,1/20,random()));
 
-	birds.push(new Bird(950*scale_width,150*scale_height,25,1/30,random()));
-	birds.push(new Bird(950*scale_width,180*scale_height,25,1/30,random()));
-	birds.push(new Bird(950*scale_width,210*scale_height,25,1/30,random()));
-	birds.push(new Bird(950*scale_width,240*scale_height,25,1/30,random()));
-	birds.push(new Bird(950*scale_width,270*scale_height,25,1/30,random()));
-	birds.push(new Bird(950*scale_width,300*scale_height,25,1/30,random()));
-	birds.push(new Bird(950*scale_width,330*scale_height,25,1/30,random()));
-	birds.push(new Bird(950*scale_width,360*scale_height,25,1/30,random()));
-	birds.push(new Bird(950*scale_width,390*scale_height,25,1/30,random()));
-	birds.push(new Bird(950*scale_width,420*scale_height,25,1/30,random()));
-	birds.push(new Bird(950*scale_width,450*scale_height,25,1/30,random()));
-	birds.push(new Bird(950*scale_width,480*scale_height,25,1/30,random()));
-	birds.push(new Bird(950*scale_width,510*scale_height,25,1/30,random()));
+	birds.push(new Bird(760*scale_width,180*scale_height,25,1/20,random()));
+	birds.push(new Bird(760*scale_width,210*scale_height,25,1/20,random()));
+	birds.push(new Bird(760*scale_width,240*scale_height,25,1/20,random()));
+	birds.push(new Bird(760*scale_width,270*scale_height,25,1/20,random()));
+	birds.push(new Bird(760*scale_width,300*scale_height,25,1/20,random()));
+	birds.push(new Bird(760*scale_width,330*scale_height,25,1/20,random()));
+	birds.push(new Bird(760*scale_width,360*scale_height,25,1/20,random()));
+	birds.push(new Bird(760*scale_width,390*scale_height,25,1/20,random()));
+	birds.push(new Bird(760*scale_width,420*scale_height,25,1/20,random()));
+	birds.push(new Bird(760*scale_width,450*scale_height,25,1/20,random()));
 
-	birds.push(new Bird(1030*scale_width,210*scale_height,25,1/30,random()));
-	birds.push(new Bird(1070*scale_width,210*scale_height,25,1/30,random()));
-	birds.push(new Bird(1110*scale_width,210*scale_height,25,1/30,random()));
-	birds.push(new Bird(1150*scale_width,210*scale_height,25,1/30,random()));
-	birds.push(new Bird(1190*scale_width,210*scale_height,25,1/30,random()));
+	birds.push(new Bird(560*scale_width,180*scale_height,25,1/20,random()));
+	birds.push(new Bird(600*scale_width,180*scale_height,25,1/20,random()));
+	birds.push(new Bird(640*scale_width,180*scale_height,25,1/20,random()));
+	birds.push(new Bird(680*scale_width,180*scale_height,25,1/20,random()));
+	birds.push(new Bird(720*scale_width,180*scale_height,25,1/20,random()));
+	birds.push(new Bird(760*scale_width,180*scale_height,25,1/20,random()));
 
-	birds.push(new Bird(1190*scale_width,210*scale_height,25,1/30,random()));
-	birds.push(new Bird(1190*scale_width,240*scale_height,25,1/30,random()));
-	birds.push(new Bird(1190*scale_width,270*scale_height,25,1/30,random()));
-	birds.push(new Bird(1190*scale_width,300*scale_height,25,1/30,random()));
+	birds.push(new Bird(560*scale_width,450*scale_height,25,1/20,random()));
+	birds.push(new Bird(600*scale_width,450*scale_height,25,1/20,random()));
+	birds.push(new Bird(640*scale_width,450*scale_height,25,1/20,random()));
+	birds.push(new Bird(680*scale_width,450*scale_height,25,1/20,random()));
+	birds.push(new Bird(720*scale_width,450*scale_height,25,1/20,random()));
+	birds.push(new Bird(760*scale_width,450*scale_height,25,1/20,random()));
 
-	birds.push(new Bird(1230*scale_width,300*scale_height,25,1/30,random()));
-	birds.push(new Bird(1190*scale_width,300*scale_height,25,1/30,random()));
-	birds.push(new Bird(1150*scale_width,300*scale_height,25,1/30,random()));
-	birds.push(new Bird(1110*scale_width,300*scale_height,25,1/30,random()));
-	birds.push(new Bird(1070*scale_width,300*scale_height,25,1/30,random()));
-	birds.push(new Bird(1030*scale_width,300*scale_height,25,1/30,random()));
-
-	birds.push(new Bird(1110*scale_width,180*scale_height,25,1/30,random()));
-	birds.push(new Bird(1110*scale_width,210*scale_height,25,1/30,random()));
-	birds.push(new Bird(1110*scale_width,240*scale_height,25,1/30,random()));
-	birds.push(new Bird(1110*scale_width,270*scale_height,25,1/30,random()));
-	birds.push(new Bird(1110*scale_width,300*scale_height,25,1/30,random()));
-
-	birds.push(new Bird(1110*scale_width,330*scale_height,25,1/30,random()));
-	birds.push(new Bird(1095*scale_width,360*scale_height,25,1/30,random()));
-	birds.push(new Bird(1080*scale_width,390*scale_height,25,1/30,random()));
-	birds.push(new Bird(1065*scale_width,420*scale_height,25,1/30,random()));
-	birds.push(new Bird(1050*scale_width,450*scale_height,25,1/30,random()));
-	birds.push(new Bird(1035*scale_width,480*scale_height,25,1/30,random()));
-
-	birds.push(new Bird(1110*scale_width,330*scale_height,25,1/30,random()));
-	birds.push(new Bird(1130*scale_width,360*scale_height,25,1/30,random()));
-	birds.push(new Bird(1150*scale_width,390*scale_height,25,1/30,random()));
-	birds.push(new Bird(1170*scale_width,420*scale_height,25,1/30,random()));
-	birds.push(new Bird(1190*scale_width,450*scale_height,25,1/30,random()));
+	birds.push(new Bird(600*scale_width,315*scale_height,25,1/20,random()));
+	birds.push(new Bird(640*scale_width,315*scale_height,25,1/20,random()));
+	birds.push(new Bird(680*scale_width,315*scale_height,25,1/20,random()));
+	birds.push(new Bird(720*scale_width,315*scale_height,25,1/20,random()));
 
 
-	birds.push(new Bird(1520*scale_width,160*scale_height,25,1/30,random()));
-	birds.push(new Bird(1490*scale_width,170*scale_height,25,1/30,random()));
-	birds.push(new Bird(1460*scale_width,180*scale_height,25,1/30,random()));
-	birds.push(new Bird(1430*scale_width,190*scale_height,25,1/30,random()));
-	birds.push(new Bird(1400*scale_width,200*scale_height,25,1/30,random()));
-	birds.push(new Bird(1370*scale_width,210*scale_height,25,1/30,random()));
-	birds.push(new Bird(1340*scale_width,220*scale_height,25,1/30,random()));
+	birds.push(new Bird(920*scale_width,270*scale_height,25,1/20,random()));
+	birds.push(new Bird(910*scale_width,300*scale_height,25,1/20,random()));
+	birds.push(new Bird(900*scale_width,330*scale_height,25,1/20,random()));
+	birds.push(new Bird(980*scale_width,270*scale_height,25,1/20,random()));
+	birds.push(new Bird(990*scale_width,300*scale_height,25,1/20,random()));
+	birds.push(new Bird(1000*scale_width,330*scale_height,25,1/20,random()));
 
-	birds.push(new Bird(1340*scale_width,220*scale_height,25,1/30,random()));
-	birds.push(new Bird(1340*scale_width,250*scale_height,25,1/30,random()));
-	birds.push(new Bird(1340*scale_width,280*scale_height,25,1/30,random()));
+	birds.push(new Bird(950*scale_width,150*scale_height,25,1/20,random()));
+	birds.push(new Bird(950*scale_width,180*scale_height,25,1/20,random()));
+	birds.push(new Bird(950*scale_width,210*scale_height,25,1/20,random()));
+	birds.push(new Bird(950*scale_width,240*scale_height,25,1/20,random()));
+	birds.push(new Bird(950*scale_width,270*scale_height,25,1/20,random()));
+	birds.push(new Bird(950*scale_width,300*scale_height,25,1/20,random()));
+	birds.push(new Bird(950*scale_width,330*scale_height,25,1/20,random()));
+	birds.push(new Bird(950*scale_width,360*scale_height,25,1/20,random()));
+	birds.push(new Bird(950*scale_width,390*scale_height,25,1/20,random()));
+	birds.push(new Bird(950*scale_width,420*scale_height,25,1/20,random()));
+	birds.push(new Bird(950*scale_width,450*scale_height,25,1/20,random()));
+	birds.push(new Bird(950*scale_width,480*scale_height,25,1/20,random()));
+	birds.push(new Bird(950*scale_width,510*scale_height,25,1/20,random()));
 
-	birds.push(new Bird(1370*scale_width,280*scale_height,25,1/30,random()));
-	birds.push(new Bird(1400*scale_width,280*scale_height,25,1/30,random()));
-	birds.push(new Bird(1430*scale_width,280*scale_height,25,1/30,random()));
-	birds.push(new Bird(1460*scale_width,280*scale_height,25,1/30,random()));
-	birds.push(new Bird(1490*scale_width,280*scale_height,25,1/30,random()));
-	birds.push(new Bird(1520*scale_width,280*scale_height,25,1/30,random()));
-	birds.push(new Bird(1550*scale_width,280*scale_height,25,1/30,random()));
-	birds.push(new Bird(1580*scale_width,280*scale_height,25,1/30,random()));
+	birds.push(new Bird(1030*scale_width,210*scale_height,25,1/20,random()));
+	birds.push(new Bird(1070*scale_width,210*scale_height,25,1/20,random()));
+	birds.push(new Bird(1110*scale_width,210*scale_height,25,1/20,random()));
+	birds.push(new Bird(1150*scale_width,210*scale_height,25,1/20,random()));
+	birds.push(new Bird(1190*scale_width,210*scale_height,25,1/20,random()));
 
-	birds.push(new Bird(1460*scale_width,220*scale_height,25,1/30,random()));
-	birds.push(new Bird(1460*scale_width,250*scale_height,25,1/30,random()));
-	birds.push(new Bird(1460*scale_width,280*scale_height,25,1/30,random()));
-	birds.push(new Bird(1460*scale_width,310*scale_height,25,1/30,random()));
-	birds.push(new Bird(1460*scale_width,340*scale_height,25,1/30,random()));
-	birds.push(new Bird(1460*scale_width,370*scale_height,25,1/30,random()));
-	birds.push(new Bird(1460*scale_width,400*scale_height,25,1/30,random()));
-	birds.push(new Bird(1460*scale_width,430*scale_height,25,1/30,random()));
-	birds.push(new Bird(1460*scale_width,460*scale_height,25,1/30,random()));
-	birds.push(new Bird(1460*scale_width,490*scale_height,25,1/30,random()));
+	birds.push(new Bird(1190*scale_width,210*scale_height,25,1/20,random()));
+	birds.push(new Bird(1190*scale_width,240*scale_height,25,1/20,random()));
+	birds.push(new Bird(1190*scale_width,270*scale_height,25,1/20,random()));
+	birds.push(new Bird(1190*scale_width,300*scale_height,25,1/20,random()));
 
-	birds.push(new Bird(1460*scale_width,490*scale_height,25,1/30,random()));
-	birds.push(new Bird(1430*scale_width,460*scale_height,25,1/30,random()));
-	birds.push(new Bird(1400*scale_width,430*scale_height,25,1/30,random()));
+	birds.push(new Bird(1230*scale_width,300*scale_height,25,1/20,random()));
+	birds.push(new Bird(1190*scale_width,300*scale_height,25,1/20,random()));
+	birds.push(new Bird(1150*scale_width,300*scale_height,25,1/20,random()));
+	birds.push(new Bird(1110*scale_width,300*scale_height,25,1/20,random()));
+	birds.push(new Bird(1070*scale_width,300*scale_height,25,1/20,random()));
+	birds.push(new Bird(1030*scale_width,300*scale_height,25,1/20,random()));
 
-	birds.push(new Bird(1400*scale_width,340*scale_height,25,1/30,random()));
-	birds.push(new Bird(1370*scale_width,360*scale_height,25,1/30,random()));
-	birds.push(new Bird(1340*scale_width,380*scale_height,25,1/30,random()));
+	birds.push(new Bird(1110*scale_width,180*scale_height,25,1/20,random()));
+	birds.push(new Bird(1110*scale_width,210*scale_height,25,1/20,random()));
+	birds.push(new Bird(1110*scale_width,240*scale_height,25,1/20,random()));
+	birds.push(new Bird(1110*scale_width,270*scale_height,25,1/20,random()));
+	birds.push(new Bird(1110*scale_width,300*scale_height,25,1/20,random()));
 
-	birds.push(new Bird(1520*scale_width,340*scale_height,25,1/30,random()));
-	birds.push(new Bird(1550*scale_width,360*scale_height,25,1/30,random()));
-	birds.push(new Bird(1580*scale_width,380*scale_height,25,1/30,random()));		
+	birds.push(new Bird(1110*scale_width,330*scale_height,25,1/20,random()));
+	birds.push(new Bird(1095*scale_width,360*scale_height,25,1/20,random()));
+	birds.push(new Bird(1080*scale_width,390*scale_height,25,1/20,random()));
+	birds.push(new Bird(1065*scale_width,420*scale_height,25,1/20,random()));
+	birds.push(new Bird(1050*scale_width,450*scale_height,25,1/20,random()));
+	birds.push(new Bird(1035*scale_width,480*scale_height,25,1/20,random()));
+
+	birds.push(new Bird(1110*scale_width,330*scale_height,25,1/20,random()));
+	birds.push(new Bird(1130*scale_width,360*scale_height,25,1/20,random()));
+	birds.push(new Bird(1150*scale_width,390*scale_height,25,1/20,random()));
+	birds.push(new Bird(1170*scale_width,420*scale_height,25,1/20,random()));
+	birds.push(new Bird(1190*scale_width,450*scale_height,25,1/20,random()));
+
+
+	birds.push(new Bird(1520*scale_width,160*scale_height,25,1/20,random()));
+	birds.push(new Bird(1490*scale_width,170*scale_height,25,1/20,random()));
+	birds.push(new Bird(1460*scale_width,180*scale_height,25,1/20,random()));
+	birds.push(new Bird(1430*scale_width,190*scale_height,25,1/20,random()));
+	birds.push(new Bird(1400*scale_width,200*scale_height,25,1/20,random()));
+	birds.push(new Bird(1370*scale_width,210*scale_height,25,1/20,random()));
+	birds.push(new Bird(1340*scale_width,220*scale_height,25,1/20,random()));
+
+	birds.push(new Bird(1340*scale_width,220*scale_height,25,1/20,random()));
+	birds.push(new Bird(1340*scale_width,250*scale_height,25,1/20,random()));
+	birds.push(new Bird(1340*scale_width,280*scale_height,25,1/20,random()));
+
+	birds.push(new Bird(1370*scale_width,280*scale_height,25,1/20,random()));
+	birds.push(new Bird(1400*scale_width,280*scale_height,25,1/20,random()));
+	birds.push(new Bird(1430*scale_width,280*scale_height,25,1/20,random()));
+	birds.push(new Bird(1460*scale_width,280*scale_height,25,1/20,random()));
+	birds.push(new Bird(1490*scale_width,280*scale_height,25,1/20,random()));
+	birds.push(new Bird(1520*scale_width,280*scale_height,25,1/20,random()));
+	birds.push(new Bird(1550*scale_width,280*scale_height,25,1/20,random()));
+	birds.push(new Bird(1580*scale_width,280*scale_height,25,1/20,random()));
+
+	birds.push(new Bird(1460*scale_width,220*scale_height,25,1/20,random()));
+	birds.push(new Bird(1460*scale_width,250*scale_height,25,1/20,random()));
+	birds.push(new Bird(1460*scale_width,280*scale_height,25,1/20,random()));
+	birds.push(new Bird(1460*scale_width,310*scale_height,25,1/20,random()));
+	birds.push(new Bird(1460*scale_width,340*scale_height,25,1/20,random()));
+	birds.push(new Bird(1460*scale_width,370*scale_height,25,1/20,random()));
+	birds.push(new Bird(1460*scale_width,400*scale_height,25,1/20,random()));
+	birds.push(new Bird(1460*scale_width,430*scale_height,25,1/20,random()));
+	birds.push(new Bird(1460*scale_width,460*scale_height,25,1/20,random()));
+	birds.push(new Bird(1460*scale_width,490*scale_height,25,1/20,random()));
+
+	birds.push(new Bird(1460*scale_width,490*scale_height,25,1/20,random()));
+	birds.push(new Bird(1430*scale_width,460*scale_height,25,1/20,random()));
+	birds.push(new Bird(1400*scale_width,430*scale_height,25,1/20,random()));
+
+	birds.push(new Bird(1400*scale_width,340*scale_height,25,1/20,random()));
+	birds.push(new Bird(1370*scale_width,360*scale_height,25,1/20,random()));
+	birds.push(new Bird(1340*scale_width,380*scale_height,25,1/20,random()));
+
+	birds.push(new Bird(1520*scale_width,340*scale_height,25,1/20,random()));
+	birds.push(new Bird(1550*scale_width,360*scale_height,25,1/20,random()));
+	birds.push(new Bird(1580*scale_width,380*scale_height,25,1/20,random()));		
 
 	birds = birds.sort((a, b) => a.size - b.size);
 }
